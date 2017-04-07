@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="@string/datepicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <DatePicker
+        android:id="@+id/dp_picker"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+    </DatePicker>
+    <TextView
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="@string/timepicker"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <TimePicker
+        android:id="@+id/tp_timepicker"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+    </TimePicker>
+</LinearLayout>
+</ScrollView>
